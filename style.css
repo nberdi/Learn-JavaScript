@@ -19,11 +19,11 @@ pre {
     color: orange;
 }
 
-.equal, .semicolon, .comma, .quotation-mark, .colon, .dot, .typeof {
+.equal, .semicolon, .comma, .quotation-mark, .colon, .dot, .typeof, .plus, .backticks, .operator {
     color: #0dbab1;
 }
 
-.log, .isArray {
+.log, .isArray, .method {
     color: #61afef;
 }
 
@@ -39,6 +39,6 @@ pre {
     background-color: #282c34;
 }
 
-.within-parentheses {
+.within-parentheses, .condition {
     color: #c792ea;
 }
